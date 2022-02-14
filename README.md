@@ -1,3 +1,3 @@
 # hamlet-todo
 
-This is my very first Website which i want to publish!
+This is my very first Website which I want to publish!
