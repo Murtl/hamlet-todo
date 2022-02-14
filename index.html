@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h2>Hamlets ToDo-List</h2> <br>
+        <input type = "text" size="50" id = "inputText" placeholder="To do..." />
+        <span class = "addBu" id = "addButton">add</span>
+        <select class = "list" id = "myList">
+            <option value = "choose">--choose--</option>
+            <option value = "showAll">showAll</option>
+            <option value = "showDone">showDone</option>
+            <option value = "showNotDone">showNotDone</option>
+            <option value = "setSelDone">setSelectedDone</option>
+            <option value = "setSelNotDone">setSelectedNotDone</option>
+            <option value = "setDisplDone">setDisplayedDone</option>
+            <option value = "setDisplNotDone">setDisplayedNotDone</option>
+            <option value = "save">Save Notes</option>
+            <option value = "load">Load Notes</option>
+        </select>
+    </header>
+
+    <main>
+        <ul id = "toDoList">
+        </ul>
+    </main>
+
+    <script src = "todo.js"></script>
+
+</body>
+</html>
+

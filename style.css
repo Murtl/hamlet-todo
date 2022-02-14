@@ -1,0 +1,69 @@
+* { /* Universalklasse gilt für alles*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-color: tan;
+}
+
+header, main {
+    text-align: center;
+    padding: 30px 40px;
+}
+
+input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+}
+
+.addBu {
+    width: 25%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.list {
+    width: 6%;
+    padding: 10px;
+}
+
+.addBu:hover{
+    background-color: gray;
+}
+
+ul li {
+    text-align: left;
+    position: relative;
+    width: 83%;
+    padding: 12px 8px 12px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    list-style-type: none;
+    background: white;
+}
+
+.doneB {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.deleB {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.check{
+    position: absolute;
+    top: 15px;
+    right: 860px;
+}
